@@ -1,4 +1,4 @@
-#printing number from 1-100
+  #printing number from 1-100
 def numbers(count):
     while count <= 100:
       print(count)
@@ -6,7 +6,7 @@ def numbers(count):
       if count > 100:
           count = 100
 numbers(0)
-#for multiples
+  #for multiples
 def fizz_buzz(num):
  if num % 3 == 0:
         return 'Fizz'
